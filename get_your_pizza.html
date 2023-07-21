@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>One Free Pizza - Get Your Pizza</title>
+  <link rel="stylesheet" href="styles2.css">
+</head>
+
+<body>
+  
+  <header>
+    <img src="pizza-logo-design_9845-319.avif" alt="One Free Pizza Logo">
+    <h1>One Free Pizza Initiative</h1>
+  </header>
+
+  
+  <main>
+    <div class="container">
+      <h2>Get Your Free Pizza</h2>
+      <form id="pizza-order-form">
+        <div class="form-group">
+          <label for="style">Pizza Style:</label>
+          <select id="style" name="style" required>
+            <option value="">Select a Style</option>
+            <option value="Hawaiian">Hawaiian</option>
+            <option value="Pepperoni">Pepperoni</option>
+            <option value="Canadian">Canadian</option>
+            <option value="Supreme">Supreme</option>
+            <option value="Cheese">Cheese</option>
+            <option value="Margherita">Margherita</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="crust">Crust:</label>
+          <select id="crust" name="crust" required>
+            <option value="">Select a Crust</option>
+            <option value="Original Crust">Original Crust</option>
+            <option value="Thin Crust">Thin Crust</option>
+            <option value="Gluten-Free Crust">Gluten-Free Crust</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="extra-cheese">Extra Cheese:</label>
+          <input type="checkbox" id="extra-cheese" name="extra-cheese">
+        </div>
+        <div class="form-group">
+          <label for="name">Your Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="address">Delivery Address:</label>
+          <input type="text" id="address" name="address" required>
+        </div>
+        <button type="submit">Submit Order</button>
+      </form>
+    </div>
+  </main>
+
+ 
+  <footer>
+    <p>&copy; 2023 One Free Pizza You will Love it. All rights reserved.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
